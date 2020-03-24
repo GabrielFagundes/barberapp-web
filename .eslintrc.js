@@ -46,6 +46,7 @@ module.exports = {
         argsIgnorePattern: "^_"
       }
     ],
+    "react/jsx-props-no-spreading": "off",
     "react/jsx-one-expression-per-line": "off",
     "global-require": "off",
     "react-native/no-raw-text": "off",
@@ -63,4 +64,11 @@ module.exports = {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn"
   },
+  settings: {
+    "import/resolver": {
+      "Babel-plugin-root-import": {
+        rootPathSuffix: "src"
+      }
+    }
+  }
 };
