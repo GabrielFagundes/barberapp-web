@@ -1,9 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
 
+import 'react-perfect-scrollbar/dist/css/styles.css';
 import 'react-toastify/dist/ReactToastify.css';
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
   * {
     padding: 0;
     margin: 0;
@@ -21,7 +21,7 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
   body, button, input {
-    font: 14px 'Roboto', sans-serif;
+    font: 14px -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
   }
   a {
     text-decoration: none;
